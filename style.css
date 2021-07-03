@@ -11,9 +11,9 @@ h1{
     color: orange;
 }
 
-section{
+.flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 110px;
 }
 
 .half-width{
@@ -23,6 +23,10 @@ section{
 
 .half-width img{
     width: 80%;
+}
+
+.half-width p{
+    text-align: justify;
 }
 
 .link-button{
@@ -42,4 +46,8 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.dream-big p{
+    text-align: justify;
+    margin-right: 75px;
 }
